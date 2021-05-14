@@ -1,0 +1,62 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+}
+
+.container {
+  display: inline-block;
+  width: 100%;
+}
+
+.brand-logo {
+  font-family: 'Raleway', sans-serif;
+}
+
+.card-content {
+  background-color: black;
+  color: white;
+}
+
+.card{ 
+  box-shadow: 0 4px 15px 0 rgba(255, 255, 255, 0.2);
+  margin: 1rem;
+}
+
+.card, .card-content {
+  padding: 5px;
+}
+
+#eng, #int, #man {
+  margin: 2rem auto;
+}
+
+.card-name {
+  font-size: 32px;
+  margin-bottom: 0.5rem;
+  margin-top: 1rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+.card-title {
+  font-size: 18px;
+  font-family: 'Fira Sans', sans-serif;
+  color: rgb(197, 14, 14);
+}
+
+.card-text {
+  font-family: 'Jost', sans-serif;
+  font-size: 16px;
+  color: white;
+  line-height: 1.5;
+}
+
+.flexbox {
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
